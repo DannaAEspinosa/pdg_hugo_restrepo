@@ -1,0 +1,39 @@
+# Ignorar configuraciones de entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos temporales de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Archivos de salida de datos
+data/processed/
+data/eda_outputs/
+
+# Configuraciones locales y archivos temporales
+*.sqlite3
+*.db
+*.env
+.DS_Store
+Thumbs.db
+
+# Archivos del sistema
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Informes generados
+*.html
+
+# Ignorar dependencias innecesarias
+*.egg-info/
+build/
+dist/
